@@ -1,5 +1,7 @@
 # Proyecto Integrador Base de Datos I
 
+<img width="1024" height="527" alt="Captura de pantalla 2026-06-08 a la(s) 15 10 49" src="https://github.com/user-attachments/assets/d06f8927-c77b-4cf4-8dc7-917c1d0bae7e" />
+
 ## Sistema de Gestión Académica para un Instituto de Cursos
 
 Este proyecto tiene como objetivo diseñar e implementar una base de datos relacional utilizando **MySQL**, **MySQL Workbench** y **SQL**, aplicando los contenidos principales de la materia **Base de Datos I**.
@@ -21,7 +23,6 @@ Diseñar e implementar una base de datos relacional que permita organizar la inf
 - SQL
 - Visual Studio Code
 - Markdown
-- Git y GitHub
 
 ---
 
@@ -60,69 +61,3 @@ El sistema permitirá gestionar:
 - Auditoría básica de cambios
 
 ---
-
-## Estructura del proyecto
-
-```text
-base-datos-i-proyecto-integrador/
-│
-├── README.md
-│
-├── docs/
-│   ├── requerimientos.md
-│   ├── der.md
-│   ├── modelo-relacional.md
-│   └── normalizacion.md
-│
-├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_create_tables.sql
-│   ├── 03_insert_data.sql
-│   ├── 04_queries.sql
-│   ├── 05_procedures.sql
-│   └── 06_triggers.sql
-│
-├── informe/
-│   └── informe-final.md
-│
-└── evidencias/
-```
-
----
-
-## Base de datos
-
-La base de datos del proyecto se llamará:
-
-```sql
-instituto_db
-```
-
----
-
-## Orden de ejecución de scripts
-
-Los archivos SQL se ejecutarán en MySQL Workbench en el siguiente orden:
-
-1. `01_create_database.sql`
-2. `02_create_tables.sql`
-3. `03_insert_data.sql`
-4. `04_queries.sql`
-5. `05_procedures.sql`
-6. `06_triggers.sql`
-
----
-
-## Estado del proyecto
-
-Proyecto en desarrollo.
-
----
-
-## Autor
-
-**Joaquín Lorenzo González**  
-Estudiante de Licenciatura en Informática  
-Universidad Siglo 21  
-
-Proyecto realizado como práctica integradora de la materia **Base de Datos I**, con el objetivo de aprender, aplicar y documentar el diseño e implementación de una base de datos relacional completa.
